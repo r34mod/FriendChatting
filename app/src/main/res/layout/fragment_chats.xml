@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondochat"
+    tools:context=".fragmentos.chatsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/progres"></ProgressBar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/user_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragmentos.popularFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardviewUser"
+        android:backgroundTint="@color/negro"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img_profile"
+                android:layout_margin="4dp"
+                android:layout_height="41dp"
+                android:layout_width="41dp"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textoUser"
+                android:layout_gravity="center"
+                android:text="Nombre usuario"
+                android:textSize="18dp"
+                android:textColor="@color/blanco"
+                android:textStyle="bold"
+                android:shadowColor="@color/negro"
+                android:shadowDx="1"
+                android:shadowDy="2"
+                android:shadowRadius="2">
+
+            </TextView>
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/llamada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_call_24">
+
+            </ImageButton>
+
+
+            <!--<Button
+                android:id="@+id/btn_ajustes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right"
+                android:text="Ajustes">
+
+            </Button>-->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:progressDrawable="@drawable/progrescolor"
+        android:progress="0"
+        android:id="@+id/progres"></ProgressBar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/user_recycle">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

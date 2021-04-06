@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "734803259202",
+    "project_id": "chat-6e24a",
+    "storage_bucket": "chat-6e24a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734803259202:android:1e9bbfde6c8557b87da2db",
+        "android_client_info": {
+          "package_name": "com.example.friendchatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734803259202-nqlmb2tg9kq7i8tgq0qmpnaos60412ps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.friendchatting",
+            "certificate_hash": "f7adf6474fd0875f7563969463c1e2b2d3018032"
+          }
+        },
+        {
+          "client_id": "734803259202-1qkcgk9elslv7l5pan7vir70kjckn0pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO4RT5gNT-myzA09UXm90eBG2L1nCdBOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734803259202-1qkcgk9elslv7l5pan7vir70kjckn0pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
